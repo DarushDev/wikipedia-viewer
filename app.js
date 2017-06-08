@@ -34,7 +34,7 @@ function processResult(apiResult) {
         alert("No results found!!!");
     } else {
         for (var i = 0; i < apiResult.query.search.length; i++) {
-            $('.list-group').append('<li class="list-group-item"><h3>' + apiResult.query.search[i].title + '</h3><h5>' + apiResult.query.search[i].snippet + '</h5></li>');
+            $('.list-group').append('<a href="https://en.wikipedia.org/wiki/'+apiResult.query.search[i].title+'" target="_blank"><li class="list-group-item"><h3>' + apiResult.query.search[i].title + '</h3><h5>' + apiResult.query.search[i].snippet + '</h5></li></a></a>');
         }
     }
 

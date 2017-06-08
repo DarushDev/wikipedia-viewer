@@ -20,6 +20,7 @@ html, body {
 }
 
 .random {
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
@@ -31,6 +32,19 @@ html, body {
     margin-top: 10px;
     font-size: 20px;
     text-align: left;
+}
+
+.list-group a {
+    color: #000;
+}
+
+.list-group a:hover{
+    text-decoration: none;
+}
+
+.list-group a:focus{
+    text-decoration: none;
+    background-color: #757575;
 }
 
 .list-group li:hover{
