@@ -38,6 +38,10 @@ html, body {
     color: #000;
 }
 
+.list-group a li {
+    margin: 4px;
+}
+
 .list-group a:hover{
     text-decoration: none;
 }
